@@ -1,0 +1,21 @@
+
+/**
+ * Hello Bar logo.
+ */
+
+.logo[data-logo="Hello Bar"] {
+  width: 3.5516917293233083em;
+}
+
+.logo[data-logo="Hello Bar"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Hello Bar"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Hello Bar"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
